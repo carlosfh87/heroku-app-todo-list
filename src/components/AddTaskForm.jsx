@@ -5,6 +5,7 @@ const AddTaskForm = ({ newTask, setNewTask, addTask }) => {
       <div className="row">
         <div className="col">
           <input 
+            name="agregar tarea"
             value={newTask}
             onChange={ (e) => setNewTask(e.target.value)}
             className="form-control form-control-lg"

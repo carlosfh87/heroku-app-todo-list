@@ -16,6 +16,8 @@ const initialToDoList = [
   { id: 3, status: false, title: 'Mi Tercera Tarea' },
   { id: 4, status: true, title: 'Tarea finalizada' },
   { id: 5, status: false, title: 'Tarea por finalizar' },
+  { id: 6, status: false, title: 'Comprar leche' },
+  { id: 7, status: false, title: 'Leer un libro' },
 ];
 // =============================================================================
 
@@ -88,7 +90,7 @@ function App() {
     <div className="container App">
 
     <br /><br />
-    <h2 data-testid='title'>App for manage To Do list</h2>
+    <h2 data-testid='title'>New App title</h2>
     <br /><br />
 
     {updateData && updateData ? (
